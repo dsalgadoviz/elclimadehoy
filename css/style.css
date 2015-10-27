@@ -1,0 +1,30 @@
+body {
+  background-color: #E6E3D3;
+}
+svg {
+  width: 500px;
+  margin: 0 auto;
+  display: block;
+  visibility: hidden;
+}
+
+/*-- CONTROLS --*/
+#btn,
+#replay {
+  margin: 20px auto;
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  fill: #0E979F;
+}
+
+.cabecera {
+  background-color: #FBFBEF;
+  position: fixed;
+  width: 100%;
+  margin: -0.5em 0 0 -0.5em
+
+}
