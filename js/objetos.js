@@ -2,7 +2,7 @@ $.ajax({
   url: "http://api.openweathermap.org/data/2.5/weather?lat=35&lon=139&appid=bd82977b86bf27fb59a04b61b657fb6f&units=metric&lang=es",
   success: function( data ) {
     $( "#AquíEstoy" )
-    .html(data.weather[0].main);
+    .html(data.weather[0].description);
   }
 });
 
