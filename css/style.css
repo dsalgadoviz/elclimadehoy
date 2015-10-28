@@ -2,6 +2,7 @@ body {
   background-color: #E6E3D3;
   width: 100%;
 }
+
 svg {
   width: 500px;
   margin: 0 auto;
@@ -38,4 +39,10 @@ svg {
 .titulo {
   margin-bottom: 3em;
   text-align: center;
+}
+
+.main-header {
+  margin-top: 1em; 
+  text-align: center;
+  margin-bottom: 1em;
 }
