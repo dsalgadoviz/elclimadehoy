@@ -1,5 +1,6 @@
 body {
   background-color: #E6E3D3;
+  width: 100%;
 }
 svg {
   width: 500px;
@@ -23,8 +24,18 @@ svg {
 
 .cabecera {
   background-color: #FBFBEF;
-  position: fixed;
+  position: relative;
   width: 100%;
   margin: -0.5em 0 0 -0.5em
 
+}
+
+.titulo,
+.svgs {
+  margin: 0 auto;
+}
+
+.titulo {
+  margin-bottom: 3em;
+  text-align: center;
 }

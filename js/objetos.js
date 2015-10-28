@@ -1,11 +1,16 @@
+var datosclima;
+
 $.ajax({
   url: "http://api.openweathermap.org/data/2.5/weather?lat=35&lon=139&appid=bd82977b86bf27fb59a04b61b657fb6f&units=metric&lang=es",
-  success: function( data ) {
-    $( "#AquíEstoy" )
-    .html(data.weather[0].description);
+  success: function( data ) { 
+
+  	$( "#Clima" ).html("El clima de hoy: "+data.weather[0].description);
+    $( "#Temperatura" ).html("La temperatura es: "+data.main.temp);
+    $( "#Presion" ).html("La presión es: "+data.main.pressure);
+    $( "#Humedad" ).html("La humedad es: "+data.main.humidity);
+    $( "#Viento" ).html("La velocidad del viento: "+data.wind.speed);
   }
 });
-
 
 
 
